@@ -194,7 +194,7 @@ export default function ListaTarefas({
     if (filtro === "concluidas") return tarefa.concluida;
     return true;
   });
-  
+  // exibição se fosse um componente React Native
   return (
     <View>
         <View style={{ flexDirection: 'row', justifyContent: 'space-around', gap: 8}}>
