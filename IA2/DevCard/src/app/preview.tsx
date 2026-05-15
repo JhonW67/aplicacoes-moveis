@@ -11,7 +11,7 @@ import { router } from "expo-router/build/exports";
 import { Avatar } from "../components/Avatar";
 import { CardTextContainer } from "../components/Containers/cardTextContainer";
 import { CardTitle } from "../components/Card/cardTitle";
-import { CardText } from "../components/Card/CardText";
+import { CardText } from "../components/Card/cardText";
 import { CardSubtitle } from "../components/Card/cardSubtitle";
 import { CardBadgeContainer } from "../components/Containers/cardBadgeContainer";
 import { CardBadgeText } from "../components/Card/CardBadgeText";
