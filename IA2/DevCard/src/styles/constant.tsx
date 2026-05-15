@@ -5,6 +5,8 @@ const SUBTITLE_COLOR = "#9b9999"
 const HEADING_COLOR = "#181818"
 const BORDER_RADIUS_MD = 8
 const BORDER_RADIUS_LG = 12
+const BORDER_RADIUS_XL = 16
+const BORDER_RADIUS_XXL = 24
 
 export const THEME = {
     colors: {
@@ -17,7 +19,17 @@ export const THEME = {
     border:{
         radius: {
         md: BORDER_RADIUS_MD,
-        lg: BORDER_RADIUS_LG
+        lg: BORDER_RADIUS_LG,
+        xl: BORDER_RADIUS_XL,
+        xxl: BORDER_RADIUS_XXL
         }
+    },
+    text: {
+    heading: {
+      h1: 48,
+      h2: 32,
+      h3: 28,
+      h4: 22,
+    },  
     }
 }

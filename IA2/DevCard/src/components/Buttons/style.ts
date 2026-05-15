@@ -38,7 +38,6 @@ const stylesOutline = StyleSheet.create({
     },
     buttonText: {
         ...stylesPrimary.buttonText,
-        color: THEME.colors.primary,
     }
 })
 
