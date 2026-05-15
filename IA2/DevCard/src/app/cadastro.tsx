@@ -1,5 +1,5 @@
 import { Text, View } from "react-native"
-import { SafeAreaView } from "react-native/types_generated/index"
+import { SafeAreaView } from "react-native-safe-area-context"
 
 export default function CadastroScreen(){
     return(
