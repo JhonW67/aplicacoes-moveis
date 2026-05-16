@@ -1,9 +1,13 @@
 import { View } from "react-native"
 import { styles } from "./styles"
 
-export function CardContainer({ children }: { children: React.ReactNode }) {
+type Props = {
+    children: React.ReactNode;
+    backgroundColor?: string;
+}
+export function CardContainer({ children, backgroundColor }: Props) {
     return (
-        <View style={styles.cardContainer}>
+        <View style={[styles.cardContainer, { backgroundColor }]}>
             {children}
         </View>
     )

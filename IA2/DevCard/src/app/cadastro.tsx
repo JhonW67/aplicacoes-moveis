@@ -30,6 +30,7 @@ export default function Cadastro() {
   const [erroCargo, setErroCargo] = useState("");
   const [erroAnos, setErroAnos] = useState("");
   const [erroTecnologia, setErroTecnologia] = useState("");
+  const [erroCor, setErroCor] = useState("");
 
   function salvar() {
     let valido = true;
@@ -60,6 +61,13 @@ export default function Cadastro() {
       valido = false;
     } else {
       setErroTecnologia("");
+    }
+
+    if (cor == "") {
+      setErroCor("Cor é obrigatória");
+      valido = false;
+    } else {
+      setErroCor("");
     }
 
     if (valido) {
@@ -142,5 +150,3 @@ export default function Cadastro() {
     </ContainerScroll>
   );
 }
-
-
